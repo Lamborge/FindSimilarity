@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FindSimilarity"
         mc:Ignorable="d"
-        Title="FindSimilarity" Height="450" Width="800">
+        Title="FindSimilarity" Height="500" Width="920">
     <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="37,55,0,0" Text="1-й текс" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FontFamily="Segoe UI Semibold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="484,60,0,0" Text="2-й текс" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FontFamily="Segoe UI Semibold"/>
+        <TextBox HorizontalAlignment="Left" Margin="37,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="336"/>
+        <TextBox HorizontalAlignment="Left" Margin="484,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="336"/>
 
     </Grid>
 </Window>
