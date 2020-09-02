@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FindSimilarity"
         mc:Ignorable="d"
-        Title="FindSimilarity" Height="500" Width="920">
+        Title="FindSimilarity" Height="550" Width="920">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="37,55,0,0" Text="1-й текс" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FontFamily="Segoe UI Semibold"/>
-        <TextBlock HorizontalAlignment="Left" Margin="484,60,0,0" Text="2-й текс" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FontFamily="Segoe UI Semibold"/>
-        <TextBox HorizontalAlignment="Left" Margin="37,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="336"/>
-        <TextBox HorizontalAlignment="Left" Margin="484,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="336"/>
+        <TextBlock x:Name="FirstTextBlock" HorizontalAlignment="Left" Margin="37,55,0,0" Text="1-й текс" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FontFamily="Segoe UI Semibold"/>
+        <TextBlock x:Name="SecondTextBlock" HorizontalAlignment="Left" Margin="484,60,0,0" Text="2-й текс" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FontFamily="Segoe UI Semibold"/>
+        <TextBox x:Name="FirstTextBox" HorizontalAlignment="Left" Margin="37,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="336"/>
+        <TextBox x:Name="SecondTextBox" HorizontalAlignment="Left" Margin="484,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="336"/>
+        <Button Content="Узнать" HorizontalAlignment="Center" Margin="0,453,0,0" VerticalAlignment="Top" FontSize="20" Width="116" Height="35"/>
 
     </Grid>
 </Window>
