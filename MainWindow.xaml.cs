@@ -34,12 +34,12 @@ namespace FindSimilarity
             char[] first_arr = FirstString.ToCharArray();
             char[] second_arr = SecondString.ToCharArray();
 
-            int res = 0;
+            float res = 0;
 
             if (first_arr.Length < second_arr.Length)
             {
 
-                float symbol_proc = 100 / first_arr.Length;
+                float symbol_proc = 100f / second_arr.Length;
 
                 for (int i = 0; i < first_arr.Length; i++)
                 {
@@ -54,7 +54,7 @@ namespace FindSimilarity
             else
             {
                 
-                float symbol_proc = 100 / second_arr.Length;
+                float symbol_proc = 100f / first_arr.Length;
 
                 for (int i = 0; i < second_arr.Length; i++)
                 {
