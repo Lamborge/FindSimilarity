@@ -70,5 +70,29 @@ namespace FindSimilarity
             //MessageBox.Show(res.ToString());
 
         }
+
+        private void ThemeCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            ThemeCheckBox.Foreground = Brushes.White;
+            FirstTextBlock.Foreground = Brushes.White;
+            SecondTextBlock.Foreground = Brushes.White;
+            FirstTextBox.Background = Brushes.Black;
+            FirstTextBox.Foreground = Brushes.White;
+            SecondTextBox.Background = Brushes.Black;
+            SecondTextBox.Foreground = Brushes.White;
+            Grid.Background = Brushes.Black;
+        }
+
+        private void ThemeCheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            ThemeCheckBox.Foreground = Brushes.Black;
+            FirstTextBlock.Foreground = Brushes.Black;
+            SecondTextBlock.Foreground = Brushes.Black;
+            FirstTextBox.Background = Brushes.White;
+            FirstTextBox.Foreground = Brushes.Black;
+            SecondTextBox.Background = Brushes.White;
+            SecondTextBox.Foreground = Brushes.Black;
+            Grid.Background = Brushes.White;
+        }
     }
 }
