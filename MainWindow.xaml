@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FindSimilarity"
         mc:Ignorable="d"
+        ResizeMode="NoResize"
         Title="FindSimilarity" Height="550" Width="920">
     <Grid x:Name="Grid" Background="White">
         <TextBlock x:Name="FirstTextBlock" HorizontalAlignment="Left" Margin="37,55,0,0" Text="1-й текс" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FontFamily="Segoe UI Semibold"/>
