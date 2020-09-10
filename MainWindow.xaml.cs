@@ -73,26 +73,26 @@ namespace FindSimilarity
 
         private void ThemeCheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            ThemeCheckBox.Foreground = Brushes.White;
-            FirstTextBlock.Foreground = Brushes.White;
-            SecondTextBlock.Foreground = Brushes.White;
-            FirstTextBox.Background = Brushes.Black;
-            FirstTextBox.Foreground = Brushes.White;
-            SecondTextBox.Background = Brushes.Black;
-            SecondTextBox.Foreground = Brushes.White;
-            Grid.Background = Brushes.Black;
+            ThemeCheckBox.Foreground = new SolidColorBrush(Color.FromRgb(204, 204, 204));
+            FirstTextBlock.Foreground = new SolidColorBrush(Color.FromRgb(204, 204, 204));
+            SecondTextBlock.Foreground = new SolidColorBrush(Color.FromRgb(204, 204, 204));
+            FirstTextBox.Background = new SolidColorBrush(Color.FromRgb(31, 31, 31));
+            FirstTextBox.Foreground = new SolidColorBrush(Color.FromRgb(204, 204, 204));
+            SecondTextBox.Background = new SolidColorBrush(Color.FromRgb(31, 31, 31));
+            SecondTextBox.Foreground = new SolidColorBrush(Color.FromRgb(204, 204, 204));
+            Grid.Background = new SolidColorBrush(Color.FromRgb(31, 31, 31));
         }
 
         private void ThemeCheckBox_Unchecked(object sender, RoutedEventArgs e)
         {
-            ThemeCheckBox.Foreground = Brushes.Black;
-            FirstTextBlock.Foreground = Brushes.Black;
-            SecondTextBlock.Foreground = Brushes.Black;
-            FirstTextBox.Background = Brushes.White;
-            FirstTextBox.Foreground = Brushes.Black;
-            SecondTextBox.Background = Brushes.White;
-            SecondTextBox.Foreground = Brushes.Black;
-            Grid.Background = Brushes.White;
+            ThemeCheckBox.Foreground = new SolidColorBrush(Color.FromRgb(31, 31, 31));
+            FirstTextBlock.Foreground = new SolidColorBrush(Color.FromRgb(31, 31, 31));
+            SecondTextBlock.Foreground = new SolidColorBrush(Color.FromRgb(31, 31, 31));
+            FirstTextBox.Background = new SolidColorBrush(Color.FromRgb(204, 204, 204));
+            FirstTextBox.Foreground = new SolidColorBrush(Color.FromRgb(31, 31, 31)); 
+            SecondTextBox.Background = new SolidColorBrush(Color.FromRgb(204, 204, 204));
+            SecondTextBox.Foreground = new SolidColorBrush(Color.FromRgb(31, 31, 31)); 
+            Grid.Background = new SolidColorBrush(Color.FromRgb(204, 204, 204));
         }
     }
 }
