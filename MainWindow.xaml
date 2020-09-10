@@ -11,7 +11,7 @@
         <TextBlock x:Name="SecondTextBlock" HorizontalAlignment="Left" Margin="484,60,0,0" Text="2-й текс" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FontFamily="Segoe UI Semibold"/>
         <TextBox x:Name="FirstTextBox" HorizontalAlignment="Left" Margin="37,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="336"/>
         <TextBox x:Name="SecondTextBox" HorizontalAlignment="Left" Margin="484,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="336"/>
-        <Button Content="Узнать" HorizontalAlignment="Center" Margin="0,453,0,0" VerticalAlignment="Top" FontSize="20" Width="116" Height="35"/>
+        <Button x:Name="FinisButton" Content="Узнать" HorizontalAlignment="Center" Margin="0,453,0,0" VerticalAlignment="Top" FontSize="20" Width="116" Height="35" Click="FinisButton_Click"/>
 
     </Grid>
 </Window>
