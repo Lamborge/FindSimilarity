@@ -31,8 +31,11 @@ namespace FindSimilarity
             string FirstString = FirstTextBox.Text; // строка для первого текста
             string SecondString = SecondTextBox.Text; // строка для второго текста
 
-            char[] first_arr = FirstString.ToCharArray();
-            char[] second_arr = SecondString.ToCharArray();
+            string FirstString_trim = FirstTextBox.Text.Trim();
+            string SecondString_trim = SecondTextBox.Text.Trim();
+
+            char[] first_arr = FirstString_trim.ToCharArray();
+            char[] second_arr = SecondString_trim.ToCharArray();
 
             float res = 0;
 
