@@ -10,8 +10,8 @@
     <Grid x:Name="Grid" Background="White">
         <TextBlock x:Name="FirstTextBlock" HorizontalAlignment="Left" Margin="37,55,0,0" Text="1-й текс" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FontFamily="Segoe UI Semibold"/>
         <TextBlock x:Name="SecondTextBlock" HorizontalAlignment="Left" Margin="484,60,0,0" Text="2-й текс" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" FontFamily="Segoe UI Semibold"/>
-        <TextBox x:Name="FirstTextBox" HorizontalAlignment="Left" Margin="37,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="336"/>
-        <TextBox x:Name="SecondTextBox" HorizontalAlignment="Left" Margin="484,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="336"/>
+        <TextBox x:Name="FirstTextBox" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" AcceptsTab="True" HorizontalAlignment="Left" Margin="37,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="336"/>
+        <TextBox x:Name="SecondTextBox" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" AcceptsTab="True" HorizontalAlignment="Left" Margin="484,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="336"/>
         <Button x:Name="FinisButton" Content="Узнать" HorizontalAlignment="Center" Margin="0,453,0,0" VerticalAlignment="Top" FontSize="20" Width="116" Height="35" Click="FinisButton_Click"/>
         <CheckBox x:Name="ThemeCheckBox" Content="Тёмная тема" HorizontalAlignment="Left" Margin="763,27,0,0" VerticalAlignment="Top" FontSize="20" Visibility="Visible" Checked="ThemeCheckBox_Checked" Unchecked="ThemeCheckBox_Unchecked"/>
 
