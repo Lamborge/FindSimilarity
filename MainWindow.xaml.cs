@@ -91,11 +91,11 @@ namespace FindSimilarity
             ThemeCheckBox.Foreground = new SolidColorBrush(Color.FromRgb(31, 31, 31));
             FirstTextBlock.Foreground = new SolidColorBrush(Color.FromRgb(31, 31, 31));
             SecondTextBlock.Foreground = new SolidColorBrush(Color.FromRgb(31, 31, 31));
-            FirstTextBox.Background = new SolidColorBrush(Color.FromRgb(204, 204, 204));
+            FirstTextBox.Background = new SolidColorBrush(Color.FromRgb(255, 255, 255));
             FirstTextBox.Foreground = new SolidColorBrush(Color.FromRgb(31, 31, 31)); 
-            SecondTextBox.Background = new SolidColorBrush(Color.FromRgb(204, 204, 204));
+            SecondTextBox.Background = new SolidColorBrush(Color.FromRgb(255, 255, 255));
             SecondTextBox.Foreground = new SolidColorBrush(Color.FromRgb(31, 31, 31)); 
-            Grid.Background = new SolidColorBrush(Color.FromRgb(204, 204, 204));
+            Grid.Background = new SolidColorBrush(Color.FromRgb(255, 255, 255));
         }
     }
 }
